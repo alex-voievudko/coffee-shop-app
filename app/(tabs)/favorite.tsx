@@ -3,14 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 
 type Props = {};
 
-const Home = (props: Props) => {
+const Favorite = (props: Props) => {
 	return (
 		<View>
-			<Text>Home</Text>
+			<Text>Favorite</Text>
 		</View>
 	);
 };
 
 const styles = StyleSheet.create({});
 
-export default Home;
+export default Favorite;
